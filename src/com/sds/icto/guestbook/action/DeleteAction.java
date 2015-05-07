@@ -16,7 +16,7 @@ public class DeleteAction implements Action {
 	public void execute(HttpServletRequest request, HttpServletResponse response)
 			throws SQLException, ClassNotFoundException, ServletException,
 			IOException {
-		request.setCharacterEncoding( "utf-8" );
+			request.setCharacterEncoding( "utf-8" );
 
 			String no = request.getParameter( "no" );
 			String password = request.getParameter( "password" );

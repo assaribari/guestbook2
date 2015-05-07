@@ -48,6 +48,7 @@ public class GuestBookServlet extends HttpServlet {
 
 		
 			if ("delete".equals(a)) {
+				System.out.println("이게 나오나");
 				action = new DeleteAction();
 			} else if ("add".equals(a)) {
 				action = new AddAction();
